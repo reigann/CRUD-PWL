@@ -10,6 +10,5 @@ const connection = mysql.createPool({
     queueLimit: 0
 });
 
-// Tidak perlu memanggil connection.connect() atau menggunakan util.promisify
 
 module.exports = connection;
